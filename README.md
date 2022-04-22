@@ -1,1 +1,2 @@
-# LeetCode-Rookie
+# 力扣菜鸟代码合集
+主要语言:**java**
