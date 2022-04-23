@@ -1,15 +1,14 @@
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode fast = head;
-        ListNode slow = head;
         while(fast != null){
             if(k > 0){
                 k--;
             }else{
-                slow = slow.next;
+                head = head.next;
             }
             fast = fast.next;
         }
-        return slow;
+        return head;
     }
 }
